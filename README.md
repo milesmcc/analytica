@@ -1,3 +1,3 @@
 # Analytica
 
-A blog for data, computing, and the myriad ways we can use them together to understand our world better.
+A blog about data, computing, and using those to better understand our world.

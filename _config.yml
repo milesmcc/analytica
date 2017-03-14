@@ -8,8 +8,8 @@ permalink:        pretty
 
 # Setup
 title:            Analytica
-tagline:          'Thoughts on Data, Computing, and Our World'
-description:      'A blog for data, computing, and the myriad ways we can use them together to understand our world better.'
+tagline:          'Thoughts on Data, Computers, and Our World'
+description:      'A blog about data, computing, and using those things to better understand our world.'
 
 url:              http://nicholas-miklaucic.github.io
 baseurl:          /

@@ -1,30 +1,21 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hello! My name is Nicholas Miklaucic. I’m a high school student at Phillips Academy Andover. In my
+spare time, I love to code—from machine learning projects, to data visualization, to
+mathematically-inspired programs, to random projects that pique my interest. This blog will serve as
+the repository of the most interesting and valuable of these side projects. All of the code that I
+use here on this blog will be available on [Github](http://github.com/nicholas-miklaucic/), and I
+encourage anyone who enjoys these projects to contribute to them with anything that feels like a
+good addition.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+Mostly, I will be using Python for these projects, along with the Python data stack (`numpy`,
+`pandas`, Jupyter, etc.) and Keras for machine learning. I code using Emacs: I may also post about
+the work I’ve done to make my editing experience as flawless as can be.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+If you have any comments, questions, criticisms, or anything you think I should know, don’t hesitate
+to contact me at [nicholas.miklaucic@gmail.com](mailto:nicholas.miklaucic@gmail.com). My Github
+username is (nicholas-miklaucic)[http://github.com/nicholas-miklaucic/].
