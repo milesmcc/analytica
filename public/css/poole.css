@@ -73,7 +73,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #150040;
   text-decoration: none;
 }
 a strong {
@@ -116,7 +116,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #212121;
 }
 
 
@@ -138,8 +138,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 abbr {
@@ -176,7 +176,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #f5f5f5;
 }
 pre code {
   padding: 0;
@@ -220,8 +220,8 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #616161;
+  border-left: .25rem solid #e0e0e0;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -244,13 +244,13 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e0e0e0;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e0e0e0;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
@@ -280,8 +280,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
+  color: #616161;
+  background-color: #f5f5f5;
 }
 
 
@@ -314,15 +314,15 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #616161;
 }
 .masthead-title a {
-  color: #505050;
+  color: #616161;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #616161;
   letter-spacing: 0;
 }
 
@@ -345,7 +345,7 @@ tbody tr:nth-child(odd) th {
 .post-title a {
     font-family: "canada-type-gibson", sans-serif;
     font-weight: 600;
-  color: #303030;
+  color: #212121;
 }
 .page-title,
 .post-title {
@@ -358,7 +358,7 @@ tbody tr:nth-child(odd) th {
     font-family: "kepler-std", serif;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #bdbdbd;
 }
 
 /* Related posts */
@@ -376,7 +376,7 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts li small {
   font-size: 75%;
-  color: #999;
+  color: #150040;
   font-family: "kepler-std-caption", serif;
 }
 
@@ -386,7 +386,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .related-posts li a:hover {
-  color: #268bd2;
+  color: #150040;
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -406,7 +406,7 @@ tbody tr:nth-child(odd) th {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "canada-type-gibson", sans-serif;
-  color: #ccc;
+  color: #150040;
   text-align: center;
 }
 
@@ -414,7 +414,7 @@ tbody tr:nth-child(odd) th {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 1px solid #e0e0e0;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
