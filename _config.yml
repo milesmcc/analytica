@@ -11,8 +11,8 @@ title:            Analytica
 tagline:          'Thoughts on Data, Computing, and Our World'
 description:      'A blog for data, computing, and the myriad ways we can use them together to understand our world better.'
 
-url:              http://nicholas-miklaucic.github.io
-baseurl:          /analytica
+url:              127.0.0.1:4000
+baseurl:          /
 
 author:
   name:           'Nicholas Miklaucic'
