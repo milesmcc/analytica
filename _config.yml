@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
@@ -28,6 +28,5 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
-  - redcarpet
   - github-pages
   - jekyll-sitemap
