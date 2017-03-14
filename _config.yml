@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Analytica
+tagline:          'Thoughts on Data, Computing, and Our World'
+description:      'A blog for data, computing, and the myriad ways we can use them together to understand our world better.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Nicholas Miklaucic'
+  url:            https://github.com/C0deSamurai
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet
+  
