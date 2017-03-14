@@ -35,6 +35,7 @@
 html {
     font-family: "kepler-std", serif;
     font-weight: 300;
+    color: #616161;
 }
 @media (min-width: 48em) {
   html {
