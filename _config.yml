@@ -30,3 +30,4 @@ gems:
   - jekyll-gist
   - redcarpet
   - github-pages
+  - jekyll-sitemap
