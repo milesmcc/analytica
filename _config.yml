@@ -10,12 +10,12 @@ permalink:        pretty
 title:            Analytica
 tagline:          'Thoughts on Data, Computing, and Our World'
 description:      'A blog for data, computing, and the myriad ways we can use them together to understand our world better.'
-url:              http://nicholas-miklaucic.github.io/analytica
+url:              http://nicholas-miklaucic.github.io
 baseurl:          /
 
 author:
   name:           'Nicholas Miklaucic'
-  url:            https://github.com/nicholas-miklaucic/analytica
+  url:            https://github.com/nicholas-miklaucic
 
 paginate:         5
 
