@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-3-15
+date: 2017-3-14
 title: "Predicting Market Crashes, Part 1: Theoretical Underpinnings"
 categories: market-crashes, finance
 ---
@@ -78,24 +78,24 @@ networks.
 
 Imagine Anna has two friends, Bennett and Chloe. They are also traders in the silver market, and
 their decisions influence each other. To make this more mathematical, imagine each trader has a
-*bias*, $\sigma$, that represents their random, noisy evaluation of the market: a positive value
+*bias*, $$\sigma$$, that represents their random, noisy evaluation of the market: a positive value
 means they believe in the market, and a negative value means they do not have faith in the
-market. However, each trader also has a *network*, each with values $V_0, V_1, V_2, \ellipsis, V_n$
+market. However, each trader also has a *network*, each with values $$V_0, V_1, V_2, …, V_n$$
 indicating their current market position. Then we can imagine every discretized cycle of a market in
-which everyone communicates with their peers updates each $V$ according to the following formula:
+which everyone communicates with their peers updates each $$V$$ according to the following formula:
 
 
 $$V' = \sigma + K (\sum_{i=0}^{n} V_i)$$
 
 
-The value of $K$ determines how tightly-connected the market is. We’ll assume $K$ is non-negative:
+The value of $$K$$ determines how tightly-connected the market is. We’ll assume $$K$$ is non-negative:
 that is, if Bennett thinks the silver market will fall, that opinion alone will not make Anna think
-the silver market is more likely to rise. If $K = 0$, the market is just as before: complete
-unconnected chaos, but around a stable equilibrium. (We could make multiple values of $K$, one for
+the silver market is more likely to rise. If $$K = 0$$, the market is just as before: complete
+unconnected chaos, but around a stable equilibrium. (We could make multiple values of $$K$$, one for
 each trader in the network, but that wouldn’t really add anything to the model as we will see.)
 
 
-Things only get interesting when $K > 0$. Now, order and chaos fight: the chaos created by the
+Things only get interesting when $$K > 0$$. Now, order and chaos fight: the chaos created by the
 negative feedback loop of supply and demand against the order created by trader’s trust in their
 peers.
 
@@ -111,7 +111,7 @@ through new public information: a war breaks out, or a company releases a bad ea
 
 
 The ingenuity becomes apparent from the second major assumption of the JLS model: if we imagine a
-global $K$ value for the entire market, $K$ rises as the price rises. To see the intuitive rationale
+global $$K$$ value for the entire market, $$K$$ rises as the price rises. To see the intuitive rationale
 behind this, imagine again Anna, Bennett, and Chloe. If the silver price shoots up to the record
 high, it piques all of their attention. Chloe might see that Bob thinks the price might fall soon,
 and so might have some apprehension, but the promise of rising prices might entice her into
@@ -123,7 +123,7 @@ has more to lose if she is wrong, and more to gain if she is right.
 
 Now we are equipped to tell the JLS story of a speculative crash. Imagine Anna, Bob, and Carol are
 all buying silver like never before; the price climbs and climbs, so there’s a fortune to be made!
-As prices rise, traders listen more to their peers, represented by $K$ increasing. This shifts the
+As prices rise, traders listen more to their peers, represented by $$K$$ increasing. This shifts the
 balance of order and chaos in favor of order: despite prices skyrocketing, traders have faith in
 their peers and networks that overrides their initial balking, and so demand continually outstrips
 supply.
