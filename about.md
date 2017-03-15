@@ -18,4 +18,4 @@ the work I’ve done to make my editing experience as flawless as can be.
 
 If you have any comments, questions, criticisms, or anything you think I should know, don’t hesitate
 to contact me at [nicholas.miklaucic@gmail.com](mailto:nicholas.miklaucic@gmail.com). My Github
-username is (nicholas-miklaucic)[http://github.com/nicholas-miklaucic/].
+username is [nicholas-miklaucic](http://github.com/nicholas-miklaucic/).
