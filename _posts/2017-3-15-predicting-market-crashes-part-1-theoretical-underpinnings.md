@@ -1,12 +1,9 @@
 ---
 layout: post
-<<<<<<< HEAD
 date: 2017-3-14
 title: "Predicting Market Crashes, Part 1: Theoretical Underpinnings"
-=======
 date: 2017-3-15
 title: "Predicting Market Crashes, Part One: Theoretical Underpinnings"
->>>>>>> development
 categories: market-crashes, finance
 ---
 
