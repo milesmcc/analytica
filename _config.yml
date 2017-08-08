@@ -24,7 +24,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/nicholas-miklaucic/analytica
+  repo:           https://github.com/nicholas-miklaucic/nicholas-miklaucic.github.io
 
 gems:
   - jekyll-paginate
