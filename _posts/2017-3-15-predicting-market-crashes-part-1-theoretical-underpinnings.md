@@ -29,10 +29,9 @@ with impressive accuracy and precision.
 
 
 The roots of this model lie in model developed by Johansen, Ledoit, and Sornette, in their
-paper
-["Crashes as Critical Points."](http://www.worldscientific.com/doi/abs/10.1142/S0219024900000115?journalCode=ijtaf) Their
-model (which I will refer to as the JLS model for brevity) is remarkable for its interpretability:
-instead of a data-first approach that attempts to synthesize a predictive model of market crashes by
+paper[^1] ["Crashes as Critical Points."](https://arxiv.org/pdf/cond-mat/9810071.pdf) Their model
+(which I will refer to as the JLS model for brevity) is remarkable for its interpretability: instead
+of a data-first approach that attempts to synthesize a predictive model of market crashes by
 analyzing prior ones, they first create a theoretical model of a market before a crash, and
 mathematically work forward from the theory to create a practical, usable predictive model.
 
@@ -162,3 +161,8 @@ In the next post, I will develop this theory of how markets crash into actual eq
 the price of a good before it crashes. In the subsequent posts after that, we will develop those
 equations into a program that can give a projected likelihood of a crash. We will then test and
 refine this computer model into a decently robust market crash prediction system.
+
+
+[^1]: 
+    Anders Johansen, Olivier Ledoit, and Didier Sornette, *Int. J. Theor. Appl. Finan.* 03, 219
+    (2000). [https://doi.org/10.1142/S0219024900000115](https://doi.org/10.1142/S0219024900000115)

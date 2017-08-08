@@ -14,7 +14,7 @@ good addition.
 
 Mostly, I will be using Python for these projects, along with the Python data stack (`numpy`,
 `pandas`, Jupyter, etc.) and Keras for machine learning. I code using Emacs: I may also post about
-the work I’ve done to make my editing experience as flawless as can be.
+the work I’ve done to custom-tailor my editing experience to my desires.
 
 If you have any comments, questions, criticisms, or anything you think I should know, don’t hesitate
 to contact me at [nicholas.miklaucic@gmail.com](mailto:nicholas.miklaucic@gmail.com). My Github

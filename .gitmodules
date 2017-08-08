@@ -1,0 +1,3 @@
+[submodule "public/css/Gutenberg"]
+	path = public/css/Gutenberg
+	url = https://github.com/matejlatin/Gutenberg.git
