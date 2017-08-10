@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    #para1{font-family:"Minion W01_n7";}
+#para2{font-family:"Minion W01 Caption_n4";}
+#para3{font-family:"Minion W01_i4";}
+#para4{font-family:"Minion W01_n4";}
+#para5{font-family:"Applied Sans W01_n8";}
+#para6{font-family:"Applied Sans W01_n7";}
+#para7{font-family:"Applied Sans W01_n2";}
+#para8{font-family:"Applied Sans W01_n9";}
+#para9{font-family:"Applied Sans W01_n4";}
+#para10{font-family:"Applied Sans W01_n2";}
+
+@media all and (min-width: 0px) {
+#para1{font-family:'Minion W01'; font-weight: 700; font-style: normal;}
+#para2{font-family:'Minion W01 Caption'; font-weight: 400; font-style: normal;}
+#para3{font-family:'Minion W01'; font-weight: 400; font-style: italic;}
+#para4{font-family:'Minion W01'; font-weight: 400; font-style: normal;}
+#para5{font-family:'Applied Sans W01'; font-weight: 800; font-style: normal;}
+#para6{font-family:'Applied Sans W01'; font-weight: 700; font-style: normal;}
+#para7{font-family:'Applied Sans W01'; font-weight: 200; font-style: normal;}
+#para8{font-family:'Applied Sans W01'; font-weight: 900; font-style: normal;}
+#para9{font-family:'Applied Sans W01'; font-weight: 400; font-style: normal;}
+#para10{font-family:'Applied Sans W01'; font-weight: 200; font-style: normal;}
+
+}
+    </style>
+    <style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=04320a65-09fb-4a5d-adb9-ed8bd162c8d6");
+    @font-face{
+        font-family:"Applied Sans W01_n2";
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix");
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix") format("eot"),url("Fonts/198c2095-dbb0-4081-b279-356541474a8b.woff2") format("woff2"),url("Fonts/bff75705-04bd-4e80-93d7-ee67e556bd23.woff") format("woff"),url("Fonts/173cd62c-672f-4bb2-b6ff-44a373770f55.ttf") format("truetype"),url("Fonts/3fa74121-a00b-4f10-aace-1c22a7a42b0e.svg#3fa74121-a00b-4f10-aace-1c22a7a42b0e") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n2";
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix");
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix") format("eot"),url("Fonts/3e763f43-c1f7-440c-8592-cb253ff58095.woff2") format("woff2"),url("Fonts/01bf77f8-8fcc-4fd3-bca5-1edd2cf98ca9.woff") format("woff"),url("Fonts/87a9305b-ead1-40f8-8860-7a2512c29509.ttf") format("truetype"),url("Fonts/dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e.svg#dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n4";
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix");
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix") format("eot"),url("Fonts/4063af43-64b6-43d0-a26e-06aa4f85363d.woff2") format("woff2"),url("Fonts/3dcd51dd-b610-42f0-aac7-c434471cd2fb.woff") format("woff"),url("Fonts/2f6f208d-79f1-4678-ba5d-f33ade8e3d27.ttf") format("truetype"),url("Fonts/fdd2b00a-96b6-4aea-9082-c1b89f38f1fb.svg#fdd2b00a-96b6-4aea-9082-c1b89f38f1fb") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n7";
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix");
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix") format("eot"),url("Fonts/46df8cfa-8e15-42de-9720-aba591256375.woff2") format("woff2"),url("Fonts/a74fcfe7-67b6-4553-92f7-f5be60252c75.woff") format("woff"),url("Fonts/24a2fa16-4b17-4cbf-bd36-c360fa32b204.ttf") format("truetype"),url("Fonts/7c51a236-5493-41b5-b63f-f31555d0fbd1.svg#7c51a236-5493-41b5-b63f-f31555d0fbd1") format("svg");
+font-weight: 700;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n8";
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix");
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix") format("eot"),url("Fonts/c41cf10f-059f-4a9c-bea1-b23be42a13fa.woff2") format("woff2"),url("Fonts/76660e90-37e4-4c4d-8091-30a06f09cb51.woff") format("woff"),url("Fonts/6aad17d1-6378-4f3f-aef3-2b62f79dbfd0.ttf") format("truetype"),url("Fonts/ff2a4a2c-a775-48ce-8a63-f2a50f9f63b7.svg#ff2a4a2c-a775-48ce-8a63-f2a50f9f63b7") format("svg");
+font-weight: 800;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n9";
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix");
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix") format("eot"),url("Fonts/7c825263-fc78-40ea-8e0e-63185d25be7c.woff2") format("woff2"),url("Fonts/de1f093a-629c-4bbd-bab0-85481537bfcb.woff") format("woff"),url("Fonts/9c1943de-6a07-4613-8ddf-576c4ea80947.ttf") format("truetype"),url("Fonts/10555eaa-5ead-4e0c-a12c-fa13ee5cd46d.svg#10555eaa-5ead-4e0c-a12c-fa13ee5cd46d") format("svg");
+font-weight: 900;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01 Caption_n4";
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01 Caption";
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix");
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix") format("eot"),url("Fonts/a87bb921-3486-4a72-ae9b-95da5497189c.woff2") format("woff2"),url("Fonts/c30f5672-a88d-407a-bf93-926f33c9d872.woff") format("woff"),url("Fonts/f008cedb-28d1-4788-aab9-82d6877f3939.ttf") format("truetype"),url("Fonts/6f6cb6b6-28c0-4542-b435-5e2ba7ed5a81.svg#6f6cb6b6-28c0-4542-b435-5e2ba7ed5a81") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01_n4";
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix");
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot"),url("Fonts/18597b82-9a06-46a3-b68b-c250c1105515.woff2") format("woff2"),url("Fonts/62100580-a2d1-4d98-bb14-d4c4c3f1a5ba.woff") format("woff"),url("Fonts/7ae8e168-1c29-4fcb-bb59-0043c943df3b.ttf") format("truetype"),url("Fonts/cfa664d4-e518-4a49-b8a3-fccec93c29c1.svg#cfa664d4-e518-4a49-b8a3-fccec93c29c1") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01_i4";
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix");
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot"),url("Fonts/3a415f59-f235-4fac-a05d-e270104dd8e6.woff2") format("woff2"),url("Fonts/e364b06d-aac3-4a54-84ff-4b3a2860debb.woff") format("woff"),url("Fonts/6346c02d-13da-4d5c-ab2e-13e40d7f24c2.ttf") format("truetype"),url("Fonts/8cda8fb2-6a3e-4e20-b063-4fbfca0025e5.svg#8cda8fb2-6a3e-4e20-b063-4fbfca0025e5") format("svg");
+font-weight: 400;
+font-style: italic;
+    }
+    @font-face{
+        font-family:"Minion W01_n7";
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix");
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix") format("eot"),url("Fonts/220fb5bf-4f80-48e5-b8a9-fddd06a97bd3.woff2") format("woff2"),url("Fonts/bc6b2067-20c7-4933-8650-b7b076845844.woff") format("woff"),url("Fonts/b048d782-a145-42cc-aef5-239535738ea5.ttf") format("truetype"),url("Fonts/5512dcf2-a81c-4e4e-9ac3-7fe205b9c25a.svg#5512dcf2-a81c-4e4e-9ac3-7fe205b9c25a") format("svg");
+font-weight: 700;
+font-style: normal;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top:-10px; font-size:1.5em;color:#666"><b>@font-face implementation instructions</b></p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+<div id="para1"> Minion® W01 Bold </div>
+<div id="para2"> Minion® W01 Caption Regular </div>
+<div id="para3"> Minion® W01 Italic </div>
+<div id="para4"> Minion® W01 Regular </div>
+<div id="para5"> Applied Sans™ W01 Black </div>
+<div id="para6"> Applied Sans™ W01 Bold </div>
+<div id="para7"> Applied Sans™ W01 Light </div>
+<div id="para8"> Applied Sans™ W01 Ultra Black </div>
+<div id="para9"> Applied Sans™ W01 Regular </div>
+<div id="para10"> Applied Sans™ W01 Thin </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo-async.htm">asynchronous</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width:830px; height:350px; border:1 #fff solid; background-color:#fcfcfc;"><style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=04320a65-09fb-4a5d-adb9-ed8bd162c8d6");
+    @font-face{
+        font-family:"Applied Sans W01_n2";
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix");
+        src:url("Fonts/198a544d-c693-45d0-b3c5-7b753af66650.eot?#iefix") format("eot"),url("Fonts/198c2095-dbb0-4081-b279-356541474a8b.woff2") format("woff2"),url("Fonts/bff75705-04bd-4e80-93d7-ee67e556bd23.woff") format("woff"),url("Fonts/173cd62c-672f-4bb2-b6ff-44a373770f55.ttf") format("truetype"),url("Fonts/3fa74121-a00b-4f10-aace-1c22a7a42b0e.svg#3fa74121-a00b-4f10-aace-1c22a7a42b0e") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n2";
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix");
+        src:url("Fonts/bfdeafbf-cc3a-4b8a-9cd2-1ad3a5f0aa68.eot?#iefix") format("eot"),url("Fonts/3e763f43-c1f7-440c-8592-cb253ff58095.woff2") format("woff2"),url("Fonts/01bf77f8-8fcc-4fd3-bca5-1edd2cf98ca9.woff") format("woff"),url("Fonts/87a9305b-ead1-40f8-8860-7a2512c29509.ttf") format("truetype"),url("Fonts/dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e.svg#dc7d2b91-b1ea-4d0b-a5fe-496cf3458e0e") format("svg");
+font-weight: 200;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n4";
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix");
+        src:url("Fonts/bad1d6b2-60f6-4b01-9fa8-914fcb266a8d.eot?#iefix") format("eot"),url("Fonts/4063af43-64b6-43d0-a26e-06aa4f85363d.woff2") format("woff2"),url("Fonts/3dcd51dd-b610-42f0-aac7-c434471cd2fb.woff") format("woff"),url("Fonts/2f6f208d-79f1-4678-ba5d-f33ade8e3d27.ttf") format("truetype"),url("Fonts/fdd2b00a-96b6-4aea-9082-c1b89f38f1fb.svg#fdd2b00a-96b6-4aea-9082-c1b89f38f1fb") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n7";
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix");
+        src:url("Fonts/71a46fbc-c856-4e55-82cb-43fea6e77704.eot?#iefix") format("eot"),url("Fonts/46df8cfa-8e15-42de-9720-aba591256375.woff2") format("woff2"),url("Fonts/a74fcfe7-67b6-4553-92f7-f5be60252c75.woff") format("woff"),url("Fonts/24a2fa16-4b17-4cbf-bd36-c360fa32b204.ttf") format("truetype"),url("Fonts/7c51a236-5493-41b5-b63f-f31555d0fbd1.svg#7c51a236-5493-41b5-b63f-f31555d0fbd1") format("svg");
+font-weight: 700;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n8";
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix");
+        src:url("Fonts/82bd2aff-2e60-4c65-b70e-7cf6180b5225.eot?#iefix") format("eot"),url("Fonts/c41cf10f-059f-4a9c-bea1-b23be42a13fa.woff2") format("woff2"),url("Fonts/76660e90-37e4-4c4d-8091-30a06f09cb51.woff") format("woff"),url("Fonts/6aad17d1-6378-4f3f-aef3-2b62f79dbfd0.ttf") format("truetype"),url("Fonts/ff2a4a2c-a775-48ce-8a63-f2a50f9f63b7.svg#ff2a4a2c-a775-48ce-8a63-f2a50f9f63b7") format("svg");
+font-weight: 800;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Applied Sans W01_n9";
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Applied Sans W01";
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix");
+        src:url("Fonts/5c6f02a9-72dd-47a6-a40a-76833fde994c.eot?#iefix") format("eot"),url("Fonts/7c825263-fc78-40ea-8e0e-63185d25be7c.woff2") format("woff2"),url("Fonts/de1f093a-629c-4bbd-bab0-85481537bfcb.woff") format("woff"),url("Fonts/9c1943de-6a07-4613-8ddf-576c4ea80947.ttf") format("truetype"),url("Fonts/10555eaa-5ead-4e0c-a12c-fa13ee5cd46d.svg#10555eaa-5ead-4e0c-a12c-fa13ee5cd46d") format("svg");
+font-weight: 900;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01 Caption_n4";
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01 Caption";
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix");
+        src:url("Fonts/f1eed122-a501-4c59-85e4-4db18384cf87.eot?#iefix") format("eot"),url("Fonts/a87bb921-3486-4a72-ae9b-95da5497189c.woff2") format("woff2"),url("Fonts/c30f5672-a88d-407a-bf93-926f33c9d872.woff") format("woff"),url("Fonts/f008cedb-28d1-4788-aab9-82d6877f3939.ttf") format("truetype"),url("Fonts/6f6cb6b6-28c0-4542-b435-5e2ba7ed5a81.svg#6f6cb6b6-28c0-4542-b435-5e2ba7ed5a81") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01_n4";
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix");
+        src:url("Fonts/35d9d14d-a31d-4d9b-a998-00ffc9bd46a4.eot?#iefix") format("eot"),url("Fonts/18597b82-9a06-46a3-b68b-c250c1105515.woff2") format("woff2"),url("Fonts/62100580-a2d1-4d98-bb14-d4c4c3f1a5ba.woff") format("woff"),url("Fonts/7ae8e168-1c29-4fcb-bb59-0043c943df3b.ttf") format("truetype"),url("Fonts/cfa664d4-e518-4a49-b8a3-fccec93c29c1.svg#cfa664d4-e518-4a49-b8a3-fccec93c29c1") format("svg");
+font-weight: 400;
+font-style: normal;
+    }
+    @font-face{
+        font-family:"Minion W01_i4";
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix");
+        src:url("Fonts/0d708c6f-d31c-49ad-b92e-ea37b7ba762b.eot?#iefix") format("eot"),url("Fonts/3a415f59-f235-4fac-a05d-e270104dd8e6.woff2") format("woff2"),url("Fonts/e364b06d-aac3-4a54-84ff-4b3a2860debb.woff") format("woff"),url("Fonts/6346c02d-13da-4d5c-ab2e-13e40d7f24c2.ttf") format("truetype"),url("Fonts/8cda8fb2-6a3e-4e20-b063-4fbfca0025e5.svg#8cda8fb2-6a3e-4e20-b063-4fbfca0025e5") format("svg");
+font-weight: 400;
+font-style: italic;
+    }
+    @font-face{
+        font-family:"Minion W01_n7";
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix") format("eot")
+    }
+    @font-face{
+        font-family:"Minion W01";
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix");
+        src:url("Fonts/aa5ba88d-85c4-4980-b7c2-4409550d1f0b.eot?#iefix") format("eot"),url("Fonts/220fb5bf-4f80-48e5-b8a9-fddd06a97bd3.woff2") format("woff2"),url("Fonts/bc6b2067-20c7-4933-8650-b7b076845844.woff") format("woff"),url("Fonts/b048d782-a145-42cc-aef5-239535738ea5.ttf") format("truetype"),url("Fonts/5512dcf2-a81c-4e4e-9ac3-7fe205b9c25a.svg#5512dcf2-a81c-4e4e-9ac3-7fe205b9c25a") format("svg");
+font-weight: 700;
+font-style: normal;
+    }
+
+</style>
+
+</textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>

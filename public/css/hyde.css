@@ -31,9 +31,9 @@
  */
 
 html {
-    font-family: "Kepler W01", serif;
+    font-family: "Minion W01", serif;
     font-weight: 400;
-    color: #616161;
+    color: #1D254A;
 }
 @media (min-width: 48em) {
   html {
@@ -55,11 +55,11 @@ html {
  */
 
 .sidebar {
-    font-family: "Harmonia Sans W01", sans-serif;
+    font-family: "Applied Sans W01", sans-serif;
   text-align: center;
   padding: 2rem 1rem;
-  color: #e0e0e0;
-  background-color: #150040;
+  color: #fffaeb;
+  background-color: #222C5C;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -74,22 +74,34 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #e0e0e0;
+  color: #fffaeb;
+}
+
+.sidebar a:focus,
+.sidebar a:hover {
+    background-color: #fffaeb;
+    color: #222c5c;
+}
+
+.sidebar h1 a:hover,
+.sidebar h1 a:focus {
+    background-color: #222c5c;
+    color: #fffaeb;
 }
 
 /* Sidebar tagline */
 .sidebar p {
-    font-family: "Kepler W03 Subhead", serif;
+    font-family: "Minion W01", serif;
     font-weight: 200;
-    color: rgba(255, 255, 255, 0.7);
+    color: #fffaeb;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #e0e0e0;
+  color: #fffaeb;
   margin-top: 0;
   font-weight: 700;
-  font-size: 3.25rem;
+  font-size: 3.4rem;
 }
 
 /* Sidebar nav */
@@ -107,8 +119,8 @@ html {
 }
 .sidebar-nav-item:hover,
 .sidebar-nav-item:focus {
-    color: #150040;
-    background-color: #e0e0e0;
+    color: #47507a;
+    background-color: #fffaeb;
 }
 
 /* Sticky sidebar

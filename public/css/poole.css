@@ -48,8 +48,6 @@ body {
 }
 
 html {
-    font-family: "Kepler W01", serif;
-    font-weight: 200;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -65,29 +63,39 @@ strong {
 }
 
 body {
-  color: #212121;
-  background-color: #e0e0e0;
+  color: #1d254a;
+  background-color: #fffaeb;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #300090;
+  color: #222c5c;
   text-decoration: none;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
 }
 
-a:active {
-    color: #100070;
+a:visited {
+    color: #47507a;
 }
+
+a:focus,
+a:hover {
+    color: #fffaeb;
+    background-color: #222c5c;
+}
+
+a:visited:focus,
+a:visited:hover {
+    color: #fffaeb;
+    background-color: #47507a;
+}
+
 
 a strong {
   color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-    /* no underline */
 }
 
 /* Headings */
@@ -95,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.25;
-  color: #212121;
+  color: #222c5c;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -121,7 +129,7 @@ p {
 }
 
 strong {
-  color: #212121;
+  color: #1d254a;
 }
 
 
@@ -143,19 +151,19 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #635f54;
+  border-bottom: 1px solid #635f54;
 }
 
 abbr {
   font-size: 85%;
   font-weight: 600;
-  color: #555;
+  color: #47507a;
   text-transform: uppercase;
 }
 abbr[title] {
   cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+  border-bottom: 1px dotted #635f54;
 }
 
 /* Code */
@@ -166,8 +174,8 @@ pre {
 code {
     padding: 0 0.25rem;;
   font-size: 85%;
-  color: #616161;
-  background-color: #e5e5e5;
+  color: #1d254a;
+  background-color: #fffaeb;
   border-radius: 3px;
 }
 pre {
@@ -225,7 +233,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #616161;
+  color: #635f54;
   border-left: .25rem solid #e0e0e0;
 }
 blockquote p:last-child {
@@ -249,17 +257,17 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #635f54;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #635f54;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #fffaeb;
 }
 
 
@@ -285,8 +293,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #616161;
-  background-color: #f5f5f5;
+  color: #47507a;
+  background-color: #fffae8;
 }
 
 
@@ -319,15 +327,15 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #616161;
+  color: #;
 }
 .masthead-title a {
-  color: #616161;
+  color: #635f54;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #616161;
+  color: #635F54;
   letter-spacing: 0;
 }
 
@@ -348,10 +356,18 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-    font-family: "Harmonia Sans W01", sans-serif;
-    font-weight: 600;
-  color: #212121;
+    font-family: "Applied Sans W01", sans-serif;
+    font-weight: 900;
+  color: #1d254a;
 }
+
+.page-title:hover,
+.post-title:hover,
+.post-title a:hover {
+    color: #1d254a;
+    background-color: #fffaeb;
+}
+
 .page-title,
 .post-title {
   margin-top: 0;
@@ -359,10 +375,10 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
     display: block;
-    font-family: "Kepler W01", serif;
+    font-family: "Minion W01 Caption", serif;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #424242;
+  color: #635f54;
 }
 
 /* Related posts */
@@ -380,17 +396,17 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts li small {
   font-size: 75%;
-  color: #150040;
-  font-family: "Kepler W01", serif;
+  color: #1d254a;
+  font-family: "Minion W01 Caption", serif;
 }
 
 .related-posts li a {
-  font-family: "Harmonia Sans W01", sans-serif;
-  font-weight: 400;
+    font-family: "Applied Sans W01", sans-serif;
+    font-weight: 500;
 }
 
 .related-posts li a:hover {
-  color: #150040;
+  color: #1d254a;
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -409,8 +425,8 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Harmonia Sans W01", sans-serif;
-  color: #150040;
+  font-family: "AppliedSansW01", sans-serif;
+  color: #45707a;
   text-align: center;
 }
 
