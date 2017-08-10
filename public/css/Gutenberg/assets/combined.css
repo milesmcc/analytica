@@ -99,84 +99,724 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 /*
-Error: Undefined variable: "$custom-font-body".
-        on line 81 of src/style/_gutenberg-config.scss
-        from line 11 of src/style/gutenberg.scss
-
-Backtrace:
-src/style/_gutenberg-config.scss:81
-src/style/gutenberg.scss:11
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/script/tree/variable.rb:49:in `_perform'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:302:in `block (2 levels) in visit_if'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:302:in `map'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:302:in `block in visit_if'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:301:in `visit_if'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:305:in `visit_if'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:305:in `visit_if'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `map'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:88:in `block in with_import'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:88:in `with_import'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:391:in `run'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
-/home/nicholas/.gem/ruby/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
-/home/nicholas/bin/sass:22:in `load'
-/home/nicholas/bin/sass:22:in `<main>'
+Gutenberg: A Meaningful Web Typography Starter Kit
+Website ....... http://matejlatin.github.io/Gutenberg/
+Version ....... 1.2.3
+Github ........ https://github.com/matejlatin/Gutenberg
+Authors ....... Matej Latin (@matejlatin)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/license.txt
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$custom-font-body\".\A         on line 81 of src/style/_gutenberg-config.scss\A         from line 11 of src/style/gutenberg.scss"; }
+/* Configuration
+   ========================================================================== */
+/* Calculations
+   ========================================================================== */
+/* Font themes
+   ========================================================================== */
+@media screen and (min-width: 37em) {
+  .floatLeft {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 37em) {
+  .floatCenter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 37em) {
+  .floatRight {
+    float: right;
+  }
+}
+
+/* Grid
+   ========================================================================== */
+.grid, .grid-double {
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px);
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: 100% 26px;
+  background-size: 100% 1.625rem;
+}
+@media screen and (min-width: 37em) {
+  .grid, .grid-double {
+    background-size: 100% 29px;
+    background-size: 100% 1.611111111111111rem;
+  }
+}
+
+.grid-double {
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px, transparent 13px, rgba(0, 170, 255, 0.2) 13px, transparent 14px, transparent 26px);
+}
+@media screen and (min-width: 37em) {
+  .grid-double {
+    background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px, transparent 14.5px, rgba(0, 170, 255, 0.2) 14.5px, transparent 15.5px, transparent 29px);
+  }
+}
+
+.toggleWrapper {
+  display: none;
+  position: fixed;
+  top: 26px;
+  right: 26px;
+  background-color: #231F20;
+  border-radius: 25px;
+  padding: 0 10px 0 20px;
+  height: 32px;
+}
+@media screen and (min-width: 37em) {
+  .toggleWrapper {
+    right: 29px;
+    top: 29px;
+  }
+}
+
+.btnToggleGrid {
+  background: url("../../assets/images/grid-icons.png") top right no-repeat;
+  background-size: 32px;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 35px;
+  height: 32px;
+  line-height: 34px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+@media screen and (min-width: 37em) {
+  .btnToggleGrid {
+    top: 29px;
+    right: 29px;
+  }
+}
+.btnToggleGrid:hover {
+  color: #fff;
+}
+.btnToggleGrid:active {
+  color: #f00;
+}
+
+.double-grid {
+  background-position-y: -32px;
+}
+
+.grid-off {
+  background-position-y: -64px;
+}
+
+aside {
+  display: block;
+}
+
+/* Defaults
+   ========================================================================== */
+@media screen and (min-width: 37em) {
+  body,
+  html {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 100%;
+  font-family: "Minion W01", serif;
+  color: #333;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+@media screen and (min-width: 37em) {
+  html {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+
+* {
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin: 0px 0px 26px;
+  margin: 0rem 0rem 1.625rem;
+}
+@media screen and (min-width: 37em) {
+  * {
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-bottom: 29px;
+    margin-bottom: 1.611111111111111rem;
+    max-width: 576px;
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  display: block;
+}
+body > footer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  display: block;
+}
+
+main {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+/* Links
+   ========================================================================== */
+a {
+  background: transparent;
+  color: #333;
+  transition: all .3s;
+}
+a:active, a:hover {
+  outline: 0;
+}
+a:hover {
+  color: #333;
+}
+a:visited {
+  color: #999;
+}
+a:visited:hover {
+  color: #333;
+}
+a:active {
+  color: #f00;
+}
+
+article {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+@media screen and (min-width: 37em) {
+  article {
+    max-width: 864px;
+    max-width: 48rem;
+  }
+}
+
+audio {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+canvas {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "HarmoniaSansMonoW01-Regular", Consolas, Menlo, monospace;
+}
+
+code {
+  padding: 26px;
+  padding: 1.625rem;
+}
+@media screen and (min-width: 37em) {
+  code {
+    padding: 29px;
+    padding: 1.611111111111111rem;
+  }
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: block;
+}
+
+figcaption {
+  line-height: 26px;
+  line-height: 1.625rem;
+  color: #333;
+  display: block;
+  font-size: .8125rem;
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media screen and (min-width: 37em) {
+  figcaption {
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-bottom: 0;
+  }
+}
+
+figure {
+  display: block;
+}
+
+@media screen and (min-width: 37em) {
+  figure.floatLeft,
+  figure.floatRight {
+    max-width: 288px;
+    max-width: 16rem;
+    padding: 0px 29px;
+    padding: 0rem 1.611111111111111rem;
+  }
+}
+@media screen and (min-width: 37em) {
+  figure.floatLeft blockquote,
+  figure.floatRight blockquote {
+    padding: 0px;
+    padding: 0rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 37em) {
+  figure.floatLeft blockquote p,
+  figure.floatRight blockquote p {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+  }
+}
+
+/* Headings
+   ========================================================================== */
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 52px;
+  line-height: 3.25rem;
+  margin-top: 104px;
+  margin-top: 6.5rem;
+  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
+}
+
+h2 {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 39px;
+  line-height: 2.4375rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+h4 {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 39px;
+  margin-top: 2.4375rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 26px;
+  line-height: 1.625rem;
+  margin-top: 65px;
+  margin-top: 4.0625rem;
+  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
+}
+
+@media screen and (min-width: 37em) {
+  h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 58px;
+    line-height: 3.222222222222223rem;
+    margin-top: 116px;
+    margin-top: 6.444444444444445rem;
+    margin-bottom: 29px;
+    margin-bottom: 1.611111111111111rem;
+  }
+
+  h2 {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 43.5px;
+    line-height: 2.416666666666667rem;
+    margin-top: 72.5px;
+    margin-top: 4.027777777777778rem;
+    margin-bottom: 14.5px;
+    margin-bottom: 0.805555555555556rem;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-top: 58px;
+    margin-top: 3.222222222222223rem;
+    margin-bottom: 14.5px;
+    margin-bottom: 0.805555555555556rem;
+  }
+
+  h4 {
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-top: 43.5px;
+    margin-top: 2.416666666666667rem;
+    margin-bottom: 14.5px;
+    margin-bottom: 0.805555555555556rem;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-top: 72.5px;
+    margin-top: 4.027777777777778rem;
+    margin-bottom: 14.5px;
+    margin-bottom: 0.805555555555556rem;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 1.611111111111111rem;
+    margin-top: 72.5px;
+    margin-top: 4.027777777777778rem;
+    margin-bottom: 14.5px;
+    margin-bottom: 0.805555555555556rem;
+  }
+}
+h1 + h2 {
+  margin-top: 26px;
+  margin-top: 1.625rem;
+}
+@media screen and (min-width: 37em) {
+  h1 + h2 {
+    margin-top: 29px;
+    margin-top: 1.611111111111111rem;
+  }
+}
+
+h2 + h3,
+h3 + h4,
+h4 + h5 {
+  margin-top: 13px;
+  margin-top: 0.8125rem;
+}
+@media screen and (min-width: 37em) {
+  h2 + h3,
+  h3 + h4,
+  h4 + h5 {
+    margin-top: 14.5px;
+    margin-top: 0.805555555555556rem;
+  }
+}
+
+h5 + h6 {
+  margin-top: -13px;
+  margin-top: -0.8125rem;
+}
+@media screen and (min-width: 37em) {
+  h5 + h6 {
+    margin-top: -14.5px;
+    margin-top: -0.805555555555556rem;
+  }
+}
+
+h6 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Applied Sans W01", sans-serif;
+}
+
+hgroup {
+  display: block;
+}
+
+hr {
+  margin-top: 52px;
+  margin-top: 3.25rem;
+  margin-bottom: 52px;
+  margin-bottom: 3.25rem;
+  box-sizing: content-box;
+  border: 0;
+  color: #333;
+  display: block;
+  height: 26px;
+  height: 1.625rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 100% 26px;
+  background-size: 100% 1.625rem;
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #333 11px, #333 15px, transparent 15px, transparent 26px);
+  width: 100px;
+}
+@media screen and (min-width: 37em) {
+  hr {
+    margin-top: 58px;
+    margin-top: 3.222222222222223rem;
+    margin-bottom: 58px;
+    margin-bottom: 3.222222222222223rem;
+    height: 29px;
+    height: 1.611111111111111rem;
+  }
+}
+@media screen and (min-width: 37em) {
+  hr {
+    background-size: 100% 29px;
+    background-size: 100% 1.611111111111111rem;
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 12.5px, #333 12.5px, #333 16.5px, transparent 16.5px, transparent 29px);
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  display: block;
+  margin: inherit auto;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0;
+}
+
+nav {
+  display: block;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1.4375rem;
+}
+@media screen and (min-width: 37em) {
+  blockquote {
+    padding-left: 2rem;
+  }
+}
+
+cite {
+  display: block;
+  font-style: normal;
+}
+
+figure blockquote {
+  padding: 26px 0px;
+  padding: 1.625rem 0rem;
+}
+@media screen and (min-width: 37em) {
+  figure blockquote {
+    padding: 58px 0px 29px;
+    padding: 3.222222222222223rem 0rem 1.611111111111111rem;
+    text-align: center;
+  }
+}
+figure blockquote p {
+  font-size: 27px;
+  font-size: 1.6875rem;
+  line-height: 39px;
+  line-height: 2.4375rem;
+}
+@media screen and (min-width: 37em) {
+  figure blockquote p {
+    font-size: 27px;
+    font-size: 1.6875rem;
+    line-height: 43.5px;
+    line-height: 2.416666666666667rem;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+br {
+  margin-bottom: 0;
+}
+
+abbr {
+  letter-spacing: 0.1em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+em,
+i {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  line-height: 13px;
+  line-height: 0.8125rem;
+  font-size: 70%;
+}
+@media screen and (min-width: 37em) {
+  small {
+    line-height: 14.5px;
+    line-height: 0.805555555555556rem;
+  }
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Paragraph
+========================================================================== */
+.attention-grabber {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.uppercase {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* TODOs:
+ - some line heights produce margins with .5 results, seemingly breaking the gird (?),
+ - add table and side comments elements,
+ */
+
+/*# sourceMappingURL=gutenberg.css.map */
